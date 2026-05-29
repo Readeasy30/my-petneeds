@@ -30,11 +30,16 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `fish.html`
 - `fish-tank-routine-basics.html`
 - `birds.html`
+- `bird-cage-setup-basics.html`
 - `reptiles.html`
+- `reptile-habitat-basics.html`
 - `small-pets.html`
+- `small-pet-home-setup.html`
 - `senior-pets.html`
 - `rescue.html`
 - `rescue-pet-settling-in.html`
+- `local-pet-resources.html`
+- `pet-family-notes-guide.html`
 - `ask-ai.html`
 - `emergency.html`
 - `upload-photo.html`
@@ -50,7 +55,6 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - Starter guide hub exists.
 - Pet category pages exist for dogs, cats, fish, birds, reptiles, small pets, senior pets, and rescue pets.
 - Support pages exist for About, Contact, Privacy, Terms, and Affiliate Disclosure.
-- `sitemap.xml` includes current public pages.
 - `robots.txt` points to the sitemap.
 - CSS includes mobile layout, focus states, card layout, footer note styling, and reusable page sections.
 - `CODEX-CURRENT-TASK.md` records the batch workflow.
@@ -68,28 +72,6 @@ Canonical URLs are complete for the current public page set.
 
 The shared footer note has been added to the main support, category, and checklist pages completed in the current cleanup pass.
 
-Footer-note pages completed in recent passes include:
-
-- `contact.html`
-- `privacy.html`
-- `terms.html`
-- `affiliate-disclosure.html`
-- `upload-photo.html`
-- `ask-ai.html`
-- `emergency.html`
-- `fish.html`
-- `birds.html`
-- `reptiles.html`
-- `small-pets.html`
-- `senior-pets.html`
-- `rescue.html`
-- `puppy-starter-checklist.html`
-- `kitten-starter-checklist.html`
-- `fish-tank-starter-checklist.html`
-- `senior-pet-comfort-checklist.html`
-- `rescue-first-week-checklist.html`
-- `dog-comfort-checklist.html`
-
 ## Verification status
 
 A verification pass checked sitemap coverage and key page basics.
@@ -105,25 +87,26 @@ Verified basics include:
 
 ## Current batch status
 
-This batch added new public guide pages for cats, fish, and rescue pets.
+This batch added more public guide pages and linked their category pages.
 
 Completed in this batch:
 
-- `cat-litter-box-basics.html`
-- `fish-tank-routine-basics.html`
-- `rescue-pet-settling-in.html`
-- `cats.html` internal link update
-- `fish.html` internal link update
-- `sitemap.xml` update for the new guide pages
+- `pet-family-notes-guide.html`
+- `bird-cage-setup-basics.html`
+- `reptile-habitat-basics.html`
+- `small-pet-home-setup.html`
+- `birds.html` internal link update
+- `reptiles.html` internal link update
+- `small-pets.html` internal link update
 
-Follow-up item:
+Recent pages also completed:
 
-- Add the `rescue-pet-settling-in.html` link to `rescue.html` with a smaller safe update.
+- `local-pet-resources.html`
+- `rescue.html` internal link update
 
 ## Next queue
 
-1. Add the rescue settling-in link to the rescue category page.
-2. Create a simple public local resources planning page when ready.
-3. Create the free pet safety guide content for future email signup.
-4. Add more high-value guide content for birds, reptiles, small pets, and senior pets.
-5. Continue simple category and guide content upgrades.
+1. Add new guide pages to `sitemap.xml` when the connector accepts the update.
+2. Add a senior pet guide page.
+3. Improve homepage links to local resources and family notes.
+4. Continue simple category and guide content upgrades.
