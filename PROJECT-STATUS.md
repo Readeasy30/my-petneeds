@@ -40,7 +40,7 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `contact.html`
 - `affiliate-disclosure.html`
 
-## Completed
+## Completed foundation
 
 - Homepage exists and links to starter guides, pet categories, safety page, photo ideas, and Ask AI planning page.
 - Starter guide hub exists.
@@ -49,28 +49,49 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `sitemap.xml` includes current public pages.
 - `robots.txt` points to the sitemap.
 - CSS includes mobile layout, focus states, card layout, footer note styling, and reusable page sections.
-- `CODEX-CURRENT-TASK.md` now records the batch workflow.
-- The open Cloudflare setup PR now includes the current content batch notes.
+- `CODEX-CURRENT-TASK.md` records the batch workflow.
+- `SITE-BATCH-WORKFLOW.md` records the full page cleanup workflow.
+- The open Cloudflare setup PR includes current content batch notes.
 
-## Current batch
+## Canonical cleanup completed in this batch
 
-1. Finish canonical URLs on public HTML pages.
-2. Add one consistent footer note to public pages.
-3. Keep header and footer links consistent.
-4. Keep all pages on the current plain HTML and CSS stack.
-5. Update status after the page sweep.
+Canonical URLs were added to these pages:
 
-## Connector status
+- `puppy-starter-checklist.html`
+- `kitten-starter-checklist.html`
+- `fish-tank-starter-checklist.html`
+- `contact.html`
+- `privacy.html`
+- `terms.html`
+- `affiliate-disclosure.html`
+- `upload-photo.html`
+- `fish.html`
+- `birds.html`
+- `reptiles.html`
+- `small-pets.html`
+- `senior-pets.html`
+- `rescue.html`
+- `ask-ai.html`
 
-The GitHub connector accepted Markdown and PR updates today.
+## Pages still needing canonical or footer-note cleanup
 
-The connector blocked direct page-level HTML updates during this batch. Use Codex for the remaining HTML sweep so the owner does not need to paste files manually.
+- `senior-pet-comfort-checklist.html`
+- `rescue-first-week-checklist.html`
+- `dog-comfort-checklist.html`
+- `about.html`
+- `emergency.html`
+
+These pages should be handled in the next repo pass with the same page-cleanup goal and neutral wording pattern used in the accepted commits.
+
+## Current batch status
+
+The batch made real page-level progress through the GitHub connector. Some pages still need a follow-up pass because the connector rejected specific full-file updates.
 
 ## Next queue
 
-1. Run the HTML cleanup in Codex.
-2. Re-check public page links.
-3. Re-check title, description, canonical URL, stylesheet link, and footer on every public page.
-4. Add local resource planning as documentation only.
-5. Add email signup planning as documentation only.
-6. Keep future revenue tools inactive until the site trust pages are ready.
+1. Finish the remaining page cleanup pass.
+2. Re-check every public page for title, meta description, canonical URL, stylesheet link, and footer.
+3. Add the short shared footer note to public pages.
+4. Re-check sitemap entries against real files.
+5. Add local resource planning as documentation only.
+6. Add email signup planning as documentation only.
