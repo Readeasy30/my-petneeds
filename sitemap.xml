@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://petneeds.ai/</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/dogs.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/cats.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/about.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/privacy.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/contact.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/terms.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/emergency.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/ask-ai.html</loc>
-  </url>
-
-  <url>
-    <loc>https://petneeds.ai/upload-photo.html</loc>
-  </url>
-
+  <url><loc>https://petneeds.ai/</loc></url>
+  <url><loc>https://petneeds.ai/dogs.html</loc></url>
+  <url><loc>https://petneeds.ai/cats.html</loc></url>
+  <url><loc>https://petneeds.ai/ask-ai.html</loc></url>
+  <url><loc>https://petneeds.ai/emergency.html</loc></url>
+  <url><loc>https://petneeds.ai/upload-photo.html</loc></url>
+  <url><loc>https://petneeds.ai/about.html</loc></url>
+  <url><loc>https://petneeds.ai/privacy.html</loc></url>
+  <url><loc>https://petneeds.ai/terms.html</loc></url>
+  <url><loc>https://petneeds.ai/contact.html</loc></url>
+  <url><loc>https://petneeds.ai/affiliate-disclosure.html</loc></url>
 </urlset>
