@@ -3,6 +3,10 @@
 ## Pages to test
 
 - `index.html` — Home
+- `starter-guides.html` — Starter Guides
+- `puppy-starter-checklist.html` — Puppy starter checklist
+- `kitten-starter-checklist.html` — Kitten starter checklist
+- `fish-tank-starter-checklist.html` — Fish tank starter checklist
 - `dogs.html` — Dogs
 - `dog-comfort-checklist.html` — Dog comfort checklist
 - `cats.html` — Cats
@@ -25,10 +29,19 @@
 
 - Main headline is clear.
 - Top buttons open real pages.
+- Starter Guides link opens.
 - Search form does not point to a missing page.
 - Pet category cards open real pages.
 - Featured guide cards open real pages.
 - Email box is clearly a future/simple offer, not a live system unless connected later.
+
+## Starter Guides review
+
+- Starter Guides page opens.
+- Puppy checklist button works.
+- Kitten checklist button works.
+- Fish tank checklist button works.
+- Starter checklist pages link back to Starter Guides.
 
 ## Navigation review
 
@@ -60,8 +73,8 @@
 
 ## Next build ideas
 
-- Standard footer pass across all pages.
-- Add starter guide pages through Codex.
+- Add senior pet comfort checklist.
+- Add rescue first week checklist.
 - Add local resource planning through Codex.
 - Add email signup planning through Codex.
 - Add photo review planning through Codex.
