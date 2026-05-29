@@ -3,6 +3,8 @@
 ## 2026-05-28
 
 - Added `.footer-note` styling support for repeated educational/veterinary safety disclaimers.
+- Added the homepage canonical URL for SEO cleanup.
+- Added visible homepage footer safety language clarifying that PetNeeds.ai is educational only and does not replace licensed veterinary care.
 - Confirmed `rescue-first-week-checklist.html` exists and is linked from `starter-guides.html`.
 - Confirmed `sitemap.xml` includes `rescue-first-week-checklist.html`.
 - Updated `README.md` with the current public page inventory and safe queue.
@@ -10,8 +12,8 @@
 
 ## Current open audit items
 
-- Add canonical URLs to public HTML pages.
-- Insert the footer-note veterinarian disclaimer into public page footers.
+- Add canonical URLs to remaining public HTML pages.
+- Insert the footer-note veterinarian disclaimer into remaining public page footers.
 - Re-run non-visual audit after page-level cleanup.
 - Run browser/mobile visual QA.
 
