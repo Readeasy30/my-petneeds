@@ -19,6 +19,7 @@ The repo uses plain HTML, plain CSS, and optional plain JavaScript.
 ## What is working
 
 - Homepage is live as `index.html`.
+- Starter Guides page exists and is linked from the homepage.
 - Main category pages exist for dogs, cats, fish, birds, reptiles, small pets, senior pets, and rescue pets.
 - Support pages exist for About, Contact, Privacy, Terms, Affiliate Disclosure, Ask AI, Safety Guide, and Photo Ideas.
 - Dog comfort checklist page exists.
@@ -26,7 +27,7 @@ The repo uses plain HTML, plain CSS, and optional plain JavaScript.
 - Robots file points to the sitemap.
 - Mobile CSS and focus styles have been improved.
 - Public page navigation has been standardized across the main pages.
-- README, GROWTH-PLAN.md, and SITE-CHECKLIST.md are updated.
+- README, GROWTH-PLAN.md, PROJECT-STATUS.md, and SITE-CHECKLIST.md are updated.
 
 ## Production rules still active
 
@@ -42,6 +43,7 @@ The repo uses plain HTML, plain CSS, and optional plain JavaScript.
 ## Current public pages
 
 - `index.html`
+- `starter-guides.html`
 - `dogs.html`
 - `dog-comfort-checklist.html`
 - `cats.html`
@@ -66,9 +68,9 @@ Some larger new-page writes were blocked by the ChatGPT GitHub connector. Use Co
 
 ## Next safe queue
 
-1. Use Codex to add starter guide pages.
-2. Use Codex to add local resource planning pages.
-3. Use Codex to add email signup planning pages.
-4. Use Codex to add photo review planning pages.
-5. Add more simple pet guides one at a time.
+1. Try one simple checklist page at a time with very plain wording.
+2. Use Codex for larger starter guide batches.
+3. Use Codex for local resource planning pages.
+4. Use Codex for email signup planning pages.
+5. Use Codex for photo review planning pages.
 6. Run manual test steps from SITE-CHECKLIST.md.
