@@ -53,18 +53,25 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `SITE-BATCH-WORKFLOW.md` records the full page cleanup workflow.
 - The open Cloudflare setup PR includes current content batch notes.
 
-## Canonical cleanup completed in this batch
+## Canonical cleanup status
 
-Canonical URLs were added to these pages:
+Canonical URLs are now complete for the current public page set.
+
+Completed pages:
 
 - `puppy-starter-checklist.html`
 - `kitten-starter-checklist.html`
 - `fish-tank-starter-checklist.html`
+- `senior-pet-comfort-checklist.html`
+- `rescue-first-week-checklist.html`
+- `dog-comfort-checklist.html`
 - `contact.html`
 - `privacy.html`
 - `terms.html`
 - `affiliate-disclosure.html`
 - `upload-photo.html`
+- `about.html`
+- `emergency.html`
 - `fish.html`
 - `birds.html`
 - `reptiles.html`
@@ -73,25 +80,17 @@ Canonical URLs were added to these pages:
 - `rescue.html`
 - `ask-ai.html`
 
-## Pages still needing canonical or footer-note cleanup
-
-- `senior-pet-comfort-checklist.html`
-- `rescue-first-week-checklist.html`
-- `dog-comfort-checklist.html`
-- `about.html`
-- `emergency.html`
-
-These pages should be handled in the next repo pass with the same page-cleanup goal and neutral wording pattern used in the accepted commits.
-
 ## Current batch status
 
-The batch made real page-level progress through the GitHub connector. Some pages still need a follow-up pass because the connector rejected specific full-file updates.
+The canonical URL sweep is complete for the current public HTML pages.
+
+Several pages also received light wording cleanup to keep the site simple and consistent.
 
 ## Next queue
 
-1. Finish the remaining page cleanup pass.
-2. Re-check every public page for title, meta description, canonical URL, stylesheet link, and footer.
-3. Add the short shared footer note to public pages.
-4. Re-check sitemap entries against real files.
-5. Add local resource planning as documentation only.
-6. Add email signup planning as documentation only.
+1. Re-check every public page for title, meta description, canonical URL, stylesheet link, and footer.
+2. Add the short shared footer note to public pages.
+3. Re-check sitemap entries against real files.
+4. Add local resource planning as documentation only.
+5. Add email signup planning as documentation only.
+6. Continue simple category and guide content upgrades.
