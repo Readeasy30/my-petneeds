@@ -1,6 +1,6 @@
 # PetNeeds.ai Project Status
 
-Date updated: 2026-05-29
+Date updated: 2026-05-31
 
 ## Current project
 
@@ -44,6 +44,7 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `ask-ai.html`
 - `emergency.html`
 - `upload-photo.html`
+- `advertise.html`
 - `about.html`
 - `privacy.html`
 - `terms.html`
@@ -64,27 +65,48 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `LOCAL-RESOURCE-PLAN.md` records future local resource planning.
 - `EMAIL-SIGNUP-PLAN.md` records future email signup planning.
 
-## Canonical cleanup status
+## Wednesday launch prep completed
 
-Canonical URLs are complete for the current public page set.
+- Added `PETNEEDS-WEDNESDAY-LAUNCH-PROGRAM.md`.
+- Added `PHOTO-SAFETY-REVIEW-WORKFLOW.md`.
+- Added `ADVERTISER-COMMISSION-PROGRAM.md`.
+- Added `advertise.html` as a public partner inquiry page.
+- Updated `upload-photo.html` with clear review-before-public rules.
+- Added `advertise.html` to `sitemap.xml`.
 
-## Footer note cleanup status
+## Marketing launch direction
 
-The shared footer note has been added to the main support, category, and checklist pages completed in the current cleanup pass.
+Launch date: Wednesday, June 3, 2026.
 
-## Current batch status
+Primary launch pages:
 
-This batch completed sitemap coverage for new guide pages, added the senior pet daily comfort guide, linked it from `senior-pets.html`, and updated the homepage to feature the family notes guide, local resources, and newer high-value guides.
+1. `index.html`
+2. `starter-guides.html`
+3. `pet-family-notes-guide.html`
+4. `emergency.html`
+5. `upload-photo.html`
+6. `advertise.html`
+7. `local-pet-resources.html`
 
-Completed in this batch:
+## Photo review direction
 
-- `sitemap.xml`
-- `senior-pet-daily-comfort.html`
-- `senior-pets.html`
-- `index.html`
+Pet photo submissions should not publish automatically.
+
+Use a controlled review process before anything public appears.
+
+Human review is required before publishing pet photos.
+
+## Advertiser direction
+
+Start with direct partner listings, sponsored guide mentions, promo-code commission, and manual lead referral options.
+
+Do not add live ad scripts, payment processing, or tracking scripts until approved and reviewed.
 
 ## Next queue
 
-1. Re-run a sitemap and public page verification pass.
-2. Add one more useful guide page for homepage discovery.
-3. Continue simple category and guide content upgrades.
+1. Add homepage link/card for `advertise.html`.
+2. Add footer link to `advertise.html` across major pages.
+3. Create launch post copy for Facebook, LinkedIn, Pinterest, Instagram, and Reddit-safe feedback posts.
+4. Create first 10 advertiser outreach targets manually.
+5. Create final photo submission form outside the repo only after review fields are ready.
+6. Run manual browser QA before Wednesday launch.
