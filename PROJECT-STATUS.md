@@ -53,7 +53,7 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 
 ## Completed foundation
 
-- Homepage exists and links to starter guides, pet categories, safety page, photo ideas, Ask AI planning page, local resources, and family notes.
+- Homepage links to starter guides, pet categories, safety page, reviewed photo ideas, partner page, local resources, and family notes.
 - Starter guide hub exists.
 - Pet category pages exist for dogs, cats, fish, birds, reptiles, small pets, senior pets, and rescue pets.
 - Support pages exist for About, Contact, Privacy, Terms, and Affiliate Disclosure.
@@ -68,10 +68,16 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 ## Wednesday launch prep completed
 
 - Added `PETNEEDS-WEDNESDAY-LAUNCH-PROGRAM.md`.
+- Added `PETNEEDS-WEDNESDAY-LAUNCH-COPY.md`.
+- Added `PETNEEDS-WEDNESDAY-QA-CHECKLIST.md`.
 - Added `PHOTO-SAFETY-REVIEW-WORKFLOW.md`.
+- Added `PETNEEDS-PHOTO-FORM-FIELDS.md`.
 - Added `ADVERTISER-COMMISSION-PROGRAM.md`.
+- Added `PETNEEDS-ADVERTISER-OUTREACH.md`.
 - Added `advertise.html` as a public partner inquiry page.
 - Updated `upload-photo.html` with clear review-before-public rules.
+- Updated homepage to link photo review rules and partner options.
+- Replaced the fake-looking email signup form with a direct link to the family notes guide.
 - Added `advertise.html` to `sitemap.xml`.
 
 ## Marketing launch direction
@@ -96,17 +102,27 @@ Use a controlled review process before anything public appears.
 
 Human review is required before publishing pet photos.
 
+Recommended first tool: Google Form plus review spreadsheet.
+
 ## Advertiser direction
 
 Start with direct partner listings, sponsored guide mentions, promo-code commission, and manual lead referral options.
 
 Do not add live ad scripts, payment processing, or tracking scripts until approved and reviewed.
 
+## Current launch-safe status
+
+- Homepage is safer for launch.
+- Advertiser page is inquiry-only.
+- Photo page is review-only.
+- Launch copy is ready.
+- Photo form fields are ready for manual Google Form setup.
+- QA checklist is ready.
+
 ## Next queue
 
-1. Add homepage link/card for `advertise.html`.
-2. Add footer link to `advertise.html` across major pages.
-3. Create launch post copy for Facebook, LinkedIn, Pinterest, Instagram, and Reddit-safe feedback posts.
-4. Create first 10 advertiser outreach targets manually.
-5. Create final photo submission form outside the repo only after review fields are ready.
-6. Run manual browser QA before Wednesday launch.
+1. Add footer link to `advertise.html` across major public pages.
+2. Create the actual Google Form using `PETNEEDS-PHOTO-FORM-FIELDS.md`.
+3. Create first 10 advertiser outreach targets manually.
+4. Run manual browser QA before Wednesday launch.
+5. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
