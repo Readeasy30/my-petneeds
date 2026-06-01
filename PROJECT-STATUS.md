@@ -72,11 +72,14 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - Added `PETNEEDS-WEDNESDAY-QA-CHECKLIST.md`.
 - Added `PHOTO-SAFETY-REVIEW-WORKFLOW.md`.
 - Added `PETNEEDS-PHOTO-FORM-FIELDS.md`.
+- Added `PETNEEDS-GOOGLE-FORM-SETUP.md`.
 - Added `ADVERTISER-COMMISSION-PROGRAM.md`.
 - Added `PETNEEDS-ADVERTISER-OUTREACH.md`.
+- Added `PETNEEDS-FIRST-10-ADVERTISER-TARGETS.md`.
 - Added `advertise.html` as a public partner inquiry page.
 - Updated `upload-photo.html` with clear review-before-public rules.
 - Updated homepage to link photo review rules and partner options.
+- Updated starter guides, family notes, safety, and local resources pages with Advertise links.
 - Replaced the fake-looking email signup form with a direct link to the family notes guide.
 - Added `advertise.html` to `sitemap.xml`.
 
@@ -116,13 +119,14 @@ Do not add live ad scripts, payment processing, or tracking scripts until approv
 - Advertiser page is inquiry-only.
 - Photo page is review-only.
 - Launch copy is ready.
-- Photo form fields are ready for manual Google Form setup.
+- Photo form setup guide is ready.
+- First 10 advertiser target categories are ready.
 - QA checklist is ready.
 
 ## Next queue
 
-1. Add footer link to `advertise.html` across major public pages.
-2. Create the actual Google Form using `PETNEEDS-PHOTO-FORM-FIELDS.md`.
-3. Create first 10 advertiser outreach targets manually.
+1. Add Advertise link to any remaining high-traffic category pages.
+2. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
+3. Build the private real advertiser prospect list outside the public repo.
 4. Run manual browser QA before Wednesday launch.
 5. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
