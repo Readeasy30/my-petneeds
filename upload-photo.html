@@ -27,7 +27,7 @@
   <section class="wrap page-hero">
     <p class="eyebrow">Community pets</p>
     <h1>Upload Your Pet Photo</h1>
-    <p>PetNeeds.ai is preparing a reviewed pet photo area. Photos will not appear publicly right away. Every photo must be reviewed first for safety, kindness, and family-friendly content.</p>
+    <p>PetNeeds.ai is preparing a reviewed pet photo area. Photos will not appear publicly right away. Every photo should pass an AI first check and a human review before public display.</p>
     <div class="hero-actions">
       <a class="button primary" href="#photo-form">Go to Photo Upload</a>
       <a class="button secondary" href="#review-rules">Read Review Rules</a>
@@ -60,6 +60,11 @@
 
   <section class="wrap page-grid">
     <article class="page-card">
+      <h2>AI Photo Check</h2>
+      <p>AI can help screen uploaded pet photos before human review. It can look for problems like adult content, violence, unsafe handling, visible private information, blurry images, screenshots, memes, non-pet images, or photos that do not match the selected pet category.</p>
+      <p>AI is only a helper. A person should still approve the final photo before it appears on PetNeeds.ai.</p>
+    </article>
+    <article class="page-card">
       <h2>Photo Categories</h2>
       <ul class="check-list">
         <li>Dogs</li>
@@ -73,9 +78,20 @@
         <li>Unusual pets</li>
       </ul>
     </article>
+  </section>
+
+  <section class="wrap page-grid">
     <article class="page-card">
       <h2>Community Rules</h2>
       <p>Photos and captions should be kind, family-friendly, and focused on the pet. Photos should not show private information, unsafe handling, offensive content, or anything that could put a child, owner, or pet at risk.</p>
+    </article>
+    <article class="page-card">
+      <h2>Review Decision</h2>
+      <ul class="check-list">
+        <li><strong>Approve:</strong> safe, clear, pet-focused, and permission is complete.</li>
+        <li><strong>Needs review:</strong> unclear pet type, people shown, poor image quality, or caption needs editing.</li>
+        <li><strong>Reject:</strong> unsafe, offensive, adult, violent, private, spam, or not pet-related.</li>
+      </ul>
     </article>
   </section>
 
@@ -89,7 +105,7 @@
         <li>No unsafe animal handling should be shown.</li>
         <li>People should not be shown unless clear permission is documented.</li>
         <li>The caption should be kind and non-offensive.</li>
-        <li>A human review must happen before public display.</li>
+        <li>AI can flag problems, but a human review must happen before public display.</li>
       </ul>
     </article>
     <article class="page-card">
@@ -100,7 +116,7 @@
   </section>
 
   <section class="wrap notice">
-    To finish the upload feature, create the Google Form described in <strong>PETNEEDS-GOOGLE-FORM-SETUP.md</strong>, then replace the temporary contact button above with the live Google Form link or embed code.
+    To finish the upload feature, create the Google Form described in <strong>PETNEEDS-GOOGLE-FORM-SETUP.md</strong>, then connect the live Google Form link or embed code here. After that, add an AI-assisted review step before human approval.
   </section>
 </main>
 
