@@ -1,6 +1,6 @@
 # PetNeeds.ai Project Status
 
-Date updated: 2026-05-31
+Date updated: 2026-06-02
 
 ## Current project
 
@@ -17,9 +17,15 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 
 - `index.html`
 - `starter-guides.html`
+- `new-pet-starter-checklist.html`
+- `new-pet-first-week-routine.html`
+- `new-puppy-checklist.html`
+- `new-kitten-checklist.html`
+- `pet-supplies-checklist-new-owners.html`
 - `puppy-starter-checklist.html`
 - `kitten-starter-checklist.html`
 - `fish-tank-starter-checklist.html`
+- `goldfish-care-for-beginners.html`
 - `senior-pet-comfort-checklist.html`
 - `rescue-first-week-checklist.html`
 - `dogs.html`
@@ -54,7 +60,7 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 ## Completed foundation
 
 - Homepage links to starter guides, pet categories, safety page, reviewed photo ideas, partner page, local resources, and family notes.
-- Starter guide hub exists.
+- Starter guide hub exists and now links new starter/supplies pages.
 - Pet category pages exist for dogs, cats, fish, birds, reptiles, small pets, senior pets, and rescue pets.
 - Support pages exist for About, Contact, Privacy, Terms, and Affiliate Disclosure.
 - `robots.txt` points to the sitemap.
@@ -64,6 +70,18 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `SITE-VERIFY-2026-05-29.md` records the latest verification pass.
 - `LOCAL-RESOURCE-PLAN.md` records future local resource planning.
 - `EMAIL-SIGNUP-PLAN.md` records future email signup planning.
+
+## PetNeeds marketing expansion completed on 2026-06-02
+
+- Confirmed website repo is `Wholelychit/my-petneeds`.
+- Added `new-pet-starter-checklist.html`.
+- Added `new-kitten-checklist.html`.
+- Added `pet-supplies-checklist-new-owners.html`.
+- Updated `starter-guides.html` with links to the new starter and supply pages.
+- Updated `sitemap.xml` with new starter pages, supplies page, and existing goldfish page.
+- Confirmed `new-puppy-checklist.html` already exists.
+- Confirmed `goldfish-care-for-beginners.html` already exists.
+- Left affiliate links inactive; no payment, tracking, or ad scripts added.
 
 ## Wednesday launch prep completed
 
@@ -91,11 +109,14 @@ Primary launch pages:
 
 1. `index.html`
 2. `starter-guides.html`
-3. `pet-family-notes-guide.html`
-4. `emergency.html`
-5. `upload-photo.html`
-6. `advertise.html`
-7. `local-pet-resources.html`
+3. `new-pet-starter-checklist.html`
+4. `new-kitten-checklist.html`
+5. `pet-supplies-checklist-new-owners.html`
+6. `pet-family-notes-guide.html`
+7. `emergency.html`
+8. `upload-photo.html`
+9. `advertise.html`
+10. `local-pet-resources.html`
 
 ## Photo review direction
 
@@ -122,11 +143,21 @@ Do not add live ad scripts, payment processing, or tracking scripts until approv
 - Photo form setup guide is ready.
 - First 10 advertiser target categories are ready.
 - QA checklist is ready.
+- New starter checklist, new kitten checklist, and pet supplies checklist are added.
+- Sitemap has been updated for the added starter/supplies pages and existing goldfish page.
+
+## Current blockers
+
+- `beginner-fish-tank-mistakes.html` was blocked by connector safety checks.
+- A simplified `fish-tank-setup-basics.html` attempt also did not land before interruption. Retry later with smaller sections or through Codex.
+- Manual browser QA is still required after Cloudflare deploys the latest GitHub commits.
 
 ## Next queue
 
-1. Add Advertise link to any remaining high-traffic category pages.
-2. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
-3. Build the private real advertiser prospect list outside the public repo.
-4. Run manual browser QA before Wednesday launch.
-5. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
+1. Run manual browser QA after Cloudflare deploys.
+2. Confirm these live URLs load: `new-pet-starter-checklist.html`, `new-kitten-checklist.html`, `pet-supplies-checklist-new-owners.html`.
+3. Retry fish setup content through Codex or smaller safe chunks.
+4. Add homepage CTA to the New Pet Starter Checklist if desired after QA.
+5. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
+6. Build the private real advertiser prospect list outside the public repo.
+7. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
