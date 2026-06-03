@@ -17,6 +17,8 @@
 - Updated `pet-family-notes-guide.html` with a stronger hero, clearer notes sections, weekly-use cards, and better navigation paths.
 - Updated `puppy-supplies-new-owners.html` with expanded layout, clearer first-week supply guidance, and stronger footer links.
 - Updated `kitten-supplies-new-owners.html` with expanded layout, starter room guidance, and stronger footer links.
+- Updated `puppy-starter-checklist.html` with a stronger first-week layout, notes section, and better next-step links.
+- Updated `kitten-starter-checklist.html` with a stronger first-week layout, notes section, and better next-step links.
 - Updated `PROJECT-STATUS.md` to remove stale fish blockers and record the current next queue.
 - No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
 
