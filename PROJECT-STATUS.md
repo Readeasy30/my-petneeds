@@ -43,6 +43,7 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `bird-cage-setup-basics.html`
 - `reptiles.html`
 - `reptile-habitat-basics.html`
+- `turtle-found-outside-what-to-do.html`
 - `small-pets.html`
 - `small-pet-home-setup.html`
 - `senior-pets.html`
@@ -75,7 +76,10 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - Starter guide hub links starter, supply, puppy, kitten, fish, goldfish, turtle, senior, rescue, and partner pages.
 - Dog hub links puppy supply guidance.
 - Cat hub links kitten supply guidance.
-- Fish hub now links fish tank setup, beginner mistakes, goldfish, and routine guides.
+- Fish hub links fish tank setup, beginner mistakes, goldfish, and routine guides.
+- Bird hub now uses the stronger homepage-style hub pattern with hero, safety reminder, guide cards, and consistent footer.
+- Reptile hub now uses the stronger homepage-style hub pattern with hero, safety reminder, turtle guide link, guide cards, and consistent footer.
+- Small pet hub now uses the stronger homepage-style hub pattern with hero, safety reminder, guide cards, and consistent footer.
 - Pet category pages exist for dogs, cats, fish, birds, reptiles, small pets, senior pets, and rescue pets.
 - Support pages exist for About, Contact, Privacy, Terms, and Affiliate Disclosure.
 - `robots.txt` points to the sitemap.
@@ -112,6 +116,16 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - Updated `sitemap.xml` to include the two new fish pages.
 - Updated `styles.css` for stronger mobile layout, button behavior, page grids, checklist spacing, and page hero spacing.
 - Confirmed the previously listed fish page blockers are now resolved.
+- No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
+
+## PetNeeds hub cleanup completed on 2026-06-03
+
+- Updated `birds.html` from a compressed older layout to the stronger hub pattern used by `fish.html`, `dogs.html`, and `cats.html`.
+- Updated `reptiles.html` from a compressed older layout to the stronger hub pattern and linked the outside turtle guide.
+- Updated `small-pets.html` from a compressed older layout to the stronger hub pattern.
+- Improved page-level SEO descriptions for birds, reptiles, and small pets.
+- Added stronger emergency/safety reminders to birds, reptiles, and small pets.
+- Standardized main navigation and footer navigation on those three hub pages.
 - No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
 
 ## Wednesday launch prep completed
@@ -179,19 +193,22 @@ Do not add live ad scripts, payment processing, or tracking scripts until approv
 - New starter checklist, new kitten checklist, pet supplies checklist, puppy supplies page, and kitten supplies page are added.
 - Fish setup basics and beginner fish tank mistakes pages are added and linked from the fish hub.
 - Sitemap now includes the current fish setup pages.
+- Bird, reptile, and small pet hubs now match the stronger hub pattern used on higher-priority pet pages.
 
 ## Current blockers
 
 - Manual browser QA is still required after Cloudflare deploys the latest GitHub commits.
+- Live domain check found a likely custom-domain issue: `www.petneeds.ai` loaded during review, but `petneeds.ai` apex returned a 404 in the browser check. Cloudflare Pages custom domains/DNS should be checked.
 - Actual Google Form creation still requires owner-side Google Forms setup using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
 - Private advertiser prospect list should stay outside the public repo.
 
 ## Next queue
 
 1. Run live browser/mobile QA after Cloudflare deploys.
-2. Confirm these live URLs load: `fish-tank-setup-basics.html`, `beginner-fish-tank-mistakes.html`, `new-pet-starter-checklist.html`, `new-kitten-checklist.html`, `pet-supplies-checklist-new-owners.html`, `puppy-supplies-new-owners.html`, `kitten-supplies-new-owners.html`.
-3. Continue canonical/footer consistency sweep across remaining public pages.
-4. Improve `dogs.html`, `cats.html`, `birds.html`, `reptiles.html`, and `small-pets.html` hubs with the same UX pattern used for `fish.html`.
-5. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
-6. Build the private real advertiser prospect list outside the public repo.
-7. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
+2. Confirm these live URLs load: `birds.html`, `reptiles.html`, `small-pets.html`, `fish-tank-setup-basics.html`, `beginner-fish-tank-mistakes.html`, `new-pet-starter-checklist.html`, `new-kitten-checklist.html`, `pet-supplies-checklist-new-owners.html`, `puppy-supplies-new-owners.html`, `kitten-supplies-new-owners.html`.
+3. Fix Cloudflare Pages custom-domain routing so both `https://petneeds.ai/` and `https://www.petneeds.ai/` load the same deployed site or redirect cleanly.
+4. Continue canonical/footer consistency sweep across remaining public pages.
+5. Improve `senior-pets.html` and `rescue.html` hubs if they still use older compressed structure.
+6. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
+7. Build the private real advertiser prospect list outside the public repo.
+8. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
