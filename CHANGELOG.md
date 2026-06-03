@@ -15,6 +15,8 @@
 - Updated `local-pet-resources.html` with stronger hero copy, partner path, trust standards, consistent nav, and safer footer wording.
 - Updated `ask-ai.html` to clarify it is a planning page, not a live AI tool, and added stronger safety boundaries.
 - Updated `pet-family-notes-guide.html` with a stronger hero, clearer notes sections, weekly-use cards, and better navigation paths.
+- Updated `puppy-supplies-new-owners.html` with expanded layout, clearer first-week supply guidance, and stronger footer links.
+- Updated `kitten-supplies-new-owners.html` with expanded layout, starter room guidance, and stronger footer links.
 - Updated `PROJECT-STATUS.md` to remove stale fish blockers and record the current next queue.
 - No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
 
