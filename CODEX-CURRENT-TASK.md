@@ -1,42 +1,45 @@
 # CODEX-CURRENT-TASK.md
 
-Last updated: 2026-05-29
+Last updated: 2026-06-03
 
 ## Repository
 
-Wholelychit/my-petneeds
+`Wholelychit/my-petneeds`
 
-## Current workflow
+## Current task: Safe repository review
 
-Use ChatGPT 5.5, Codex, GitHub, and Cloudflare Pages.
+Find bugs, SEO problems, broken links, accessibility issues, bad mobile layout, performance problems, and practical improvement ideas.
 
-ChatGPT plans the work. Codex handles repository edits. GitHub stores the commits. Cloudflare Pages publishes from GitHub when connected.
+## Rules
 
-## Batch note
+- Do not redesign the site.
+- Do not convert to React, Vite, Next.js, TypeScript, Tailwind, or any build tools.
+- Keep the current plain HTML/CSS/JS structure where this repo uses plain HTML/CSS/JS.
+- Do not delete major working code.
+- Do not add API keys, tracking scripts, ads, payment systems, affiliate links, or user accounts.
+- Do not make risky production changes.
+- Fix small safe issues directly when possible.
+- For larger or risky issues, list them clearly before changing anything.
+- Work in safe batches and do not stop after one small fix.
+- If this repo contains non-website, backend, template, or planning files, review only what applies and do not force a framework or structure change.
 
-For build sessions, group related website updates into useful commits.
+## Check these areas
 
-Focus on the static website, page cleanup, simple content improvements, navigation, footer consistency, SEO basics, and documentation.
+1. HTML errors and missing tags
+2. Broken links and bad navigation
+3. SEO title tags, meta descriptions, canonical links, headings, and alt text
+4. Mobile layout problems
+5. Accessibility problems
+6. CSS conflicts or layout bugs
+7. JavaScript errors
+8. Page speed and image size issues
+9. Missing `robots.txt` or `sitemap.xml`
+10. Missing privacy, disclaimer, contact, or footer links if needed
 
-Give a summary after the grouped work is complete or when repository access blocks progress.
+## Deliverables
 
-## Current focus
+Report: summary reviewed, bugs found, SEO problems, broken links, mobile/layout problems, accessibility issues, performance problems, safe fixes completed, suggested next improvements, and commit messages used.
 
-My Petneeds is a pet information and future monetization website.
+## Stop points
 
-Keep the site simple, fast, mobile-friendly, family-readable, and trustworthy. Use plain language for pet owners.
-
-## Current queue
-
-1. Review current pages and docs.
-2. Finish canonical URLs on public HTML pages.
-3. Add the standard pet safety footer note to public pages.
-4. Improve homepage clarity and navigation.
-5. Improve pet category pages.
-6. Improve sitemap, robots, titles, descriptions, and support docs.
-7. Keep pet guidance educational and beginner-friendly.
-8. Prepare local advertising ideas in planning docs only.
-
-## Reporting
-
-Report after useful grouped commits or a repository blocker.
+Stop before private keys, API keys, live tracking, live ads, payment setup, user accounts, upload systems, affiliate links, framework migration, major code deletion, or anything that risks breaking production.
