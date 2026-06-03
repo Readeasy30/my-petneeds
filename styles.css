@@ -145,6 +145,7 @@ button {
   text-decoration: none;
   display: inline-block;
   line-height: 1.2;
+  text-align: center;
 }
 
 .primary,
@@ -175,6 +176,10 @@ button:hover { background: var(--brand-dark); }
   box-shadow: var(--shadow);
 }
 
+.page-hero {
+  padding-top: 44px;
+}
+
 input,
 select,
 textarea {
@@ -202,10 +207,15 @@ section.wrap,
 .alert-card h2 { color: var(--danger); }
 .section-heading { margin-bottom: 20px; }
 
-.card-grid {
+.card-grid,
+.page-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
+}
+
+.page-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .card {
@@ -230,6 +240,13 @@ section.wrap,
 .form-card p { color: var(--muted); }
 
 .card a { font-weight: 800; }
+
+.check-list {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.check-list li + li { margin-top: 8px; }
 
 .feature-band {
   padding: 52px 0;
@@ -258,67 +275,66 @@ section.wrap,
   margin: -4px 0 0;
 }
 
-.page-hero { padding: 46px 0 18px; }
-
-.page-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-
-.form-grid { display: grid; gap: 14px; }
-
-.notice {
-  background: #edf8ff;
-  border-left: 5px solid var(--brand);
-  padding: 16px;
-  border-radius: 14px;
-}
-
-.check-list,
-.danger-list { padding-left: 1.25rem; }
-.check-list li,
-.danger-list li { margin-bottom: 10px; }
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
 @media (max-width: 900px) {
+  .header-wrap,
   .hero-grid,
-  .split,
-  .page-grid { grid-template-columns: 1fr; }
-  .card-grid { grid-template-columns: repeat(2, 1fr); }
-  .header-wrap { align-items: flex-start; flex-direction: column; }
-  nav { width: 100%; }
+  .split {
+    grid-template-columns: 1fr;
+  }
+
+  .header-wrap {
+    display: grid;
+    justify-items: start;
+  }
+
+  .card-grid,
+  .page-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 620px) {
   body { font-size: 16px; }
+
   .wrap { width: min(100% - 24px, 1120px); }
+
+  .hero { padding: 44px 0; }
+
   .site-header { position: static; }
-  .header-wrap { padding: 14px 0; }
-  nav { gap: 6px; }
-  nav a { font-size: 0.95rem; padding: 6px 7px; }
-  .hero { padding: 42px 0; }
+
+  nav {
+    width: 100%;
+    gap: 8px;
+  }
+
+  nav a {
+    padding: 8px 10px;
+    background: #f4fbf8;
+  }
+
+  .hero-actions,
+  .search-box,
+  .signup-form {
+    display: grid;
+  }
+
+  .button,
+  button {
+    width: 100%;
+  }
+
+  .card-grid,
+  .page-grid {
+    grid-template-columns: 1fr;
+  }
+
   .hero-card,
   .card,
   .alert-card,
   .email-card,
   .page-card,
-  .form-card { border-radius: 18px; padding: 18px; }
-  .card-grid { grid-template-columns: 1fr; }
-  .hero-actions,
-  .signup-form,
-  .search-box { flex-direction: column; }
-  .button,
-  button { width: 100%; text-align: center; }
+  .form-card {
+    border-radius: 18px;
+    padding: 20px;
+  }
 }
