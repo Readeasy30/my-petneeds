@@ -1,6 +1,6 @@
 # PetNeeds.ai Project Status
 
-Date updated: 2026-06-02
+Date updated: 2026-06-03
 
 ## Current project
 
@@ -27,6 +27,8 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `puppy-starter-checklist.html`
 - `kitten-starter-checklist.html`
 - `fish-tank-starter-checklist.html`
+- `fish-tank-setup-basics.html`
+- `beginner-fish-tank-mistakes.html`
 - `goldfish-care-for-beginners.html`
 - `senior-pet-comfort-checklist.html`
 - `rescue-first-week-checklist.html`
@@ -59,16 +61,26 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - `contact.html`
 - `affiliate-disclosure.html`
 
+## Current source-of-truth files checked
+
+- `CODEX-CURRENT-TASK.md` records the current review task: bugs, SEO, broken links, mobile layout, accessibility, performance, sitemap/robots, support pages, and safe fixes.
+- `CODEX-GOAL-UPDATE.md` records the business goal: build simple, fast, useful websites that can grow traffic and earn income while remaining manageable by one person.
+- `UX-RULES.md` points to the shared Wholelychit UX standard.
+- `Wholelychit/marketing-system/SHARED-UX-RULES.md` requires mobile-first pages, fast loading, simple navigation, warm emotional design, readable text, consistent headers/footers, trust, clarity, and simple user journeys.
+- `SITE-BATCH-WORKFLOW.md` requires grouped safe work sessions, public page cleanup, canonical URLs, stylesheet links, consistent footers, sitemap checks, and status updates.
+
 ## Completed foundation
 
 - Homepage links to starter guides, pet categories, safety page, reviewed photo ideas, partner page, local resources, and family notes.
-- Starter guide hub exists and now links new starter/supplies pages.
+- Starter guide hub links starter, supply, puppy, kitten, fish, goldfish, turtle, senior, rescue, and partner pages.
 - Dog hub links puppy supply guidance.
 - Cat hub links kitten supply guidance.
+- Fish hub now links fish tank setup, beginner mistakes, goldfish, and routine guides.
 - Pet category pages exist for dogs, cats, fish, birds, reptiles, small pets, senior pets, and rescue pets.
 - Support pages exist for About, Contact, Privacy, Terms, and Affiliate Disclosure.
 - `robots.txt` points to the sitemap.
-- CSS includes mobile layout, focus states, card layout, footer note styling, and reusable page sections.
+- `sitemap.xml` includes current public pages, including fish setup and beginner fish mistake pages.
+- CSS includes mobile layout, focus states, card layout, page grid layout, checklist styling, footer note styling, full-width mobile buttons, and reusable page sections.
 - `CODEX-CURRENT-TASK.md` records the batch workflow.
 - `SITE-BATCH-WORKFLOW.md` records the full page cleanup workflow.
 - `SITE-VERIFY-2026-05-29.md` records the latest verification pass.
@@ -90,6 +102,17 @@ PetNeeds.ai is a simple static pet information website for families and everyday
 - Confirmed `new-puppy-checklist.html` already exists.
 - Confirmed `goldfish-care-for-beginners.html` already exists.
 - Left affiliate links inactive; no payment, tracking, or ad scripts added.
+
+## PetNeeds safe review and fish content batch completed on 2026-06-03
+
+- Checked `CODEX-CURRENT-TASK.md`, `CODEX-GOAL-UPDATE.md`, `UX-RULES.md`, shared UX rules, `SITE-BATCH-WORKFLOW.md`, `GROWTH-PLAN.md`, and `SITE-CHECKLIST.md`.
+- Added `fish-tank-setup-basics.html`.
+- Added `beginner-fish-tank-mistakes.html`.
+- Updated `fish.html` to link the new fish setup and mistake guides.
+- Updated `sitemap.xml` to include the two new fish pages.
+- Updated `styles.css` for stronger mobile layout, button behavior, page grids, checklist spacing, and page hero spacing.
+- Confirmed the previously listed fish page blockers are now resolved.
+- No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
 
 ## Wednesday launch prep completed
 
@@ -154,23 +177,21 @@ Do not add live ad scripts, payment processing, or tracking scripts until approv
 - First 10 advertiser target categories are ready.
 - QA checklist is ready.
 - New starter checklist, new kitten checklist, pet supplies checklist, puppy supplies page, and kitten supplies page are added.
-- Sitemap update for puppy/kitten supply pages was blocked; retry later through Codex or a smaller patch.
+- Fish setup basics and beginner fish tank mistakes pages are added and linked from the fish hub.
+- Sitemap now includes the current fish setup pages.
 
 ## Current blockers
 
-- `beginner-fish-tank-mistakes.html` was blocked by connector safety checks.
-- A simplified `fish-tank-setup-basics.html` attempt also did not land. Retry later with smaller sections or through Codex.
-- Full starter hub update adding puppy/kitten supply cards was blocked by connector safety checks.
-- Full sitemap update adding puppy/kitten supply pages was blocked by connector safety checks.
 - Manual browser QA is still required after Cloudflare deploys the latest GitHub commits.
+- Actual Google Form creation still requires owner-side Google Forms setup using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
+- Private advertiser prospect list should stay outside the public repo.
 
 ## Next queue
 
-1. Run manual browser QA after Cloudflare deploys.
-2. Confirm these live URLs load: `new-pet-starter-checklist.html`, `new-kitten-checklist.html`, `pet-supplies-checklist-new-owners.html`, `puppy-supplies-new-owners.html`, `kitten-supplies-new-owners.html`.
-3. Retry sitemap and starter hub link updates through Codex or smaller safe chunks.
-4. Retry fish setup content through Codex or smaller safe chunks.
-5. Add homepage CTA to the New Pet Starter Checklist if desired after QA.
-6. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
-7. Build the private real advertiser prospect list outside the public repo.
-8. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
+1. Run live browser/mobile QA after Cloudflare deploys.
+2. Confirm these live URLs load: `fish-tank-setup-basics.html`, `beginner-fish-tank-mistakes.html`, `new-pet-starter-checklist.html`, `new-kitten-checklist.html`, `pet-supplies-checklist-new-owners.html`, `puppy-supplies-new-owners.html`, `kitten-supplies-new-owners.html`.
+3. Continue canonical/footer consistency sweep across remaining public pages.
+4. Improve `dogs.html`, `cats.html`, `birds.html`, `reptiles.html`, and `small-pets.html` hubs with the same UX pattern used for `fish.html`.
+5. Create the actual Google Form using `PETNEEDS-GOOGLE-FORM-SETUP.md`.
+6. Build the private real advertiser prospect list outside the public repo.
+7. After QA, publish first Facebook, LinkedIn, Pinterest, and local feedback posts.
