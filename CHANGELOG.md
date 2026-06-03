@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-06-03
+
+- Checked the active repo task file, goal file, UX pointer, shared UX rules, site batch workflow, growth plan, and site checklist before continuing production work.
+- Added `fish-tank-setup-basics.html` as a beginner aquarium setup guide.
+- Added `beginner-fish-tank-mistakes.html` as a simple first-tank mistake prevention guide.
+- Updated `fish.html` so the fish hub links the new setup and mistake guides.
+- Updated `sitemap.xml` so the new fish pages are discoverable.
+- Updated `styles.css` with safer mobile behavior, page-grid layout support, checklist spacing, mobile full-width buttons, and page hero spacing.
+- Updated `PROJECT-STATUS.md` to remove stale fish blockers and record the current next queue.
+- No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
+
 ## 2026-05-28
 
 - Added `.footer-note` styling support for repeated educational/veterinary safety disclaimers.
@@ -12,10 +23,10 @@
 
 ## Current open audit items
 
-- Add canonical URLs to remaining public HTML pages.
-- Insert the footer-note veterinarian disclaimer into remaining public page footers.
-- Re-run non-visual audit after page-level cleanup.
-- Run browser/mobile visual QA.
+- Run live browser/mobile QA after Cloudflare deploys the latest GitHub commits.
+- Continue canonical/footer consistency sweep across remaining public HTML pages.
+- Improve main pet category hubs with the same clearer UX pattern used on `fish.html`.
+- Confirm sitemap entries match deployed pages.
 
 ## Blocked / deferred
 
