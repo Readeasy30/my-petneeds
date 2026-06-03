@@ -8,6 +8,10 @@
 - Updated `fish.html` so the fish hub links the new setup and mistake guides.
 - Updated `sitemap.xml` so the new fish pages are discoverable.
 - Updated `styles.css` with safer mobile behavior, page-grid layout support, checklist spacing, mobile full-width buttons, and page hero spacing.
+- Updated `dogs.html` to use the stronger hub pattern with hero, safety reminder, guide cards, and consistent footer.
+- Updated `cats.html` to use the stronger hub pattern with hero, safety reminder, guide cards, and consistent footer.
+- Confirmed `birds.html`, `reptiles.html`, and `small-pets.html` already use the stronger hub pattern in the latest repo state.
+- Updated `rescue.html` to use the stronger hub pattern with first-week, settling-in, story idea, and family notes paths.
 - Updated `PROJECT-STATUS.md` to remove stale fish blockers and record the current next queue.
 - No live ads, tracking scripts, payment handling, affiliate links, public AI, user accounts, or upload systems were added.
 
@@ -25,9 +29,10 @@
 
 - Run live browser/mobile QA after Cloudflare deploys the latest GitHub commits.
 - Continue canonical/footer consistency sweep across remaining public HTML pages.
-- Improve main pet category hubs with the same clearer UX pattern used on `fish.html`.
+- Improve `senior-pets.html` when connector safety checks allow it.
 - Confirm sitemap entries match deployed pages.
 
 ## Blocked / deferred
 
+- The attempted `senior-pets.html` hub update was blocked by connector safety checks and should be retried later with smaller wording or through Codex.
 - Live ads, tracking, payments, affiliate links, public AI, uploads, user accounts, and veterinary diagnosis features remain blocked until intentionally approved and configured.
