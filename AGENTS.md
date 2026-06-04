@@ -1,5 +1,15 @@
 # AGENTS.md
 
+## First rule: stability before new work
+
+Before changing files, read `STABILITY-DIRECTIVE.md`.
+
+When Gerry says **lock**, **locked**, **checkpoint**, **production lock**, or **stable version**, treat it as:
+
+**lock = stabilize, protect, document, and verify.**
+
+Do not start new feature work while the existing production path is broken. Restore the working path first, remove or document conflicting old files, record meaningful fixes, and avoid repeating completed work.
+
 ## Non-negotiable work rule
 
 AI and Codex handle file work directly.
@@ -67,15 +77,16 @@ These tasks are pre-approved when they follow the current stack and project dire
 
 ## Faster build order
 
-1. Improve homepage message.
-2. Improve navigation.
-3. Improve mobile layout.
-4. Fix broken links.
-5. Improve pet categories.
-6. Improve support pages.
-7. Add topic pages.
-8. Add monetization planning later.
-9. Report after several useful commits or when blocked.
+1. Stabilize any broken production path.
+2. Improve homepage message.
+3. Improve navigation.
+4. Improve mobile layout.
+5. Fix broken links.
+6. Improve pet categories.
+7. Improve support pages.
+8. Add topic pages.
+9. Add monetization planning later.
+10. Report after several useful commits or when blocked.
 
 ## Stop points
 
