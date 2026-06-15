@@ -1,44 +1,51 @@
+# CLAUDE.md
+
+GitHub is the source of truth for this project.
+
+## Start every session
+
+1. Read CLAUDE.md.
+2. Read STATUS.md if present.
+3. Inspect the real repository file tree.
+4. Trust the live repo over memory, chat notes, or old summaries.
+5. Report any mismatch before editing.
+
+## Work rules
+
+- Gerry names the task; Claude works from the repo.
+- Make the best reasonable assumption and continue.
+- Avoid repeated questions.
+- Keep replies short and useful.
+- Prefer full-file replacements for larger changes.
+- Do not redesign unless Gerry asks.
+- Use plain HTML, CSS, and JavaScript unless Gerry clearly approves something else.
+- Keep PetNeeds educational and owner-friendly.
+- Keep pages mobile-first and fast.
+- Use clear headings, simple language, and basic SEO.
+
+## Commit report
+
+After changes, report:
+
+1. Repo worked on
+2. Files changed
+3. Commit made
+4. What to check next
+5. Any blocker
+
+---
+
 # My Pet Needs — Project Context for Claude
 
 ## Project Overview
-- **Site:** MyPetNeeds / petneeds.ai — pet care content and resource site
-- **Tech Stack:** Vanilla HTML + CSS (single `styles.css`), no build step
-- **Deployment:** Cloudflare Pages, connected to this GitHub repo (`main` auto-deploys)
-- **Cloudflare Worker:** `my-petneeds` worker deployed for backend logic
-- **Domain:** petneeds.ai (Cloudflare managed)
+- Site: petneeds.ai / My Pet Needs
+- Stack: vanilla HTML and CSS, no build step
+- Deployment: Cloudflare Pages from GitHub main branch
+- Domain: petneeds.ai
 
-## Project Structure
-- `index.html` — homepage
-- `styles.css` — single global stylesheet (mobile-first)
-- `upload-photo.html` + `upload-photo/` — pet photo upload feature
-- `starter-guides.html` — guide index page
-- `ask-ai.html` — AI pet Q&A page
-- `emergency.html` — pet emergency resources
-- **Pet category pages:** `dogs.html`, `cats.html`, `birds.html`, `fish.html`, `reptiles.html`, `small-pets.html`, `senior-pets.html`, `rescue.html`
-- **Content pages:** checklists, care guides, how-to articles (50+ HTML files)
-- **Trust/legal pages:** `about.html`, `contact.html`, `privacy.html`, `terms.html`, `advertise.html`, `affiliate-disclosure.html`
-- `404.html` — custom error page
-- `_headers` — Cloudflare Pages security headers
-- `_redirects` — Cloudflare Pages URL redirects
-- `sitemap.xml`, `robots.txt` — SEO files
-- `DEPLOY-TRIGGER.txt` (if present) — bump to force Cloudflare Pages redeploy
-
-## Important Rules
-- **No frameworks** — pure HTML/CSS only, no JavaScript frameworks
-- **No unsupported veterinary or medical claims** — always include disclaimers
-- **Mobile-first** — test all pages on mobile before deploying
-- **No live monetization, tracking pixels, or private keys** without approval
-- **No external service dependencies** added without approval
-- Keep content helpful, accurate, and pet-owner friendly
-
-## Git Workflow
-- `main` branch auto-deploys to Cloudflare Pages
-- Feature branches: `feature/branch-name` or `claude/...`
-- Follow Conventional Commits: `feat:`, `fix:`, `chore:`, `docs:`
-- To force redeploy: update `DEPLOY-TRIGGER.txt` with a timestamp
-
-## SEO & Content Guidelines
-- All pages must have `<title>`, `<meta description>`, and canonical URL
-- Use structured, crawlable HTML — no JS-rendered content
-- Sitemap and robots.txt must stay up to date when adding new pages
-- No unsupported health/medical claims about pets
+## Project rules
+- Keep the site educational.
+- Keep content simple, helpful, and easy to read.
+- Keep mobile-first layout.
+- Keep SEO files updated when pages change.
+- Do not add frameworks unless Gerry clearly asks.
