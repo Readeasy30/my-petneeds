@@ -1,0 +1,12 @@
+# PetNeeds
+
+PetNeeds is an educational pet care website.
+
+## Core Pages
+
+- / — Homepage
+- /about.html — About
+- /dogs.html — Dogs
+- /cats.html — Cats
+- /small-pets.html — Small pets
+- /disclaimer.html — Disclaimer
